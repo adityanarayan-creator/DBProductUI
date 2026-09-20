@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DBProduct.UI.ServiceAccessLayer\DBProduct.UI.ServiceAccessLayer.csproj" />
+    <ProjectReference Include="..\DBProduct.UI.ViewModel\DBProduct.UI.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
